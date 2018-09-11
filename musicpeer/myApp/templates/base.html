@@ -1,16 +1,32 @@
 <html>
   <head>
-      {% if title %}
-      <title>{{title}} - Music Peer</title>
-      {% else %}
-      <title>Welcome to Music Peer</title>
-      {% endif %}
+      <title>Music Peer</title>
   </head>
   <body>
-    <div>Music Peer:
-      <a href="{{url_for('index')}}">Home</a>
-      <a href="{{url_for('login')}}">Login</a>
-      <a href="{{url_for('signup')}}">Signup</a>
+    </div>
+      <div class="row">
+        <div class="column">
+          Music Peer :
+          {% if joined or loggedin %}
+            <a href="{{url_for('index')}}">Logout</a>
+          {% else %}
+            <a href="{{url_for('index')}}">Home</a>
+            <a href="{{url_for('login')}}">Login</a>
+            <a href="{{url_for('signup')}}">SignUp</a>
+          {% endif %}
+        </div>
+
+        <div class="column">
+          <form role="search">
+            <div class="search-control">
+                <input type="search" id="site-search" name="q"
+                       placeholder="Search the site..."
+                       aria-label="Search through site content">
+                <button>Search</button>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
     <hr>
 

@@ -10,4 +10,7 @@ class SignupForm(FlaskForm):
     submit = SubmitField("Sign up")
 
     def match_passwords(self):
-        return self.password.data == self.re_password.data
+        if self.password.data == self.re_password.data:
+            return True
+        else:
+            return False

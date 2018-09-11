@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "musicpeer-bffc0",
+  "private_key_id": "5dc52c0c048a34343fe9a7445ad880adabd81eb2",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCLuoHk7jLu2MUk\nr4u8kzODOhTWA0gCNtX8/NJRbMkwlLEWZLxq4SIljkGM3vvlYEfUxJohntYdgSp8\ni31tCI1/CZHi58GNMPXfvW79JWYPu/HspdvKuNGtnz48Tqn7ciP+RSvzQKoGg4vu\nwpqQMdSMRIU3xtBAb9LP3kAUygztihfpjDIIPCK/mFNvfhBGCptp7k7gKypf+kaH\nQwhccuSOmHgDKX9pvJ8/15yI4c1x+iLGqQckwiW2M6b5ueqYjJuFQCfRDSv2OLXw\n6i3svyEiyLxSyXazhmmNSyY8B+EiZGPxSvP6TN86DlccLLCDRt4DT94rW4oYoWDU\ngcuG+EytAgMBAAECggEAGG98adGyPIzSJTFB6a+AcbGFlUurmx+F2qFIEo9Iu+M0\n+OqS/Mn0U8cF9aHFQX7N8QqUvc5uOWiuSmuGervlKtM8nQbUlWF7ji4tq72PlK7U\nhwMWZeReXtObaaaEGYIDg2MLZZXoZg05On7z0sW0GvecqH1vS+WCY3HFmR0gl6Wt\niurFtkb/tR3TsrpFH9vl8IV48GuEiGuc8TqgpVlnBoBGKS4bFo8Ke/FuBB9dLjAG\nVHh5w74IhPtnCAHD4KhWUW5jbqQwgZtC+sjOqhcJPNVaKIfWGszd9BP4898rcqAy\nKgjCzoaUEVra1BCSJdDSz6Wi2CC5mcSlYZ1heSb7LQKBgQDDhKIqwzlhXhtJ9iD/\noKMwi3Z/5DAHdT6ftEJ3VJ0MrGgIbiNcYatp+wP+J7UA7bqCyHZ9z5u8+Wscqpgr\n5sK4y9Jse2NGOjroSp16SZdjpVrSJcwSEhM3aV4vKjr7QN96J4dqkSAIYCfLob/p\nCOkBZ+9HVA2QDd9PNnyP2sYcewKBgQC289Eb6FH71Uq3fH3KnjBRSMI/BvXdsna8\nLnrzn/3F1nSuifYdkQhRMKLhjklWnJGLTFXStBuGfU3vLBFf7t/djCLzqrres+7e\njrHPP2gVrYd9iHVZUGnR6lfvO5yfFBMuCzB/k4oDrqiZ7otJSi/sdJdH13h3kBRx\nZA/uLMzW9wKBgQCHbxe6UXMs7Dgw+oqPKGICXYjfPFy8vc18aSxlZrpHLiH+PPTH\nqGxJxHRWmIC8PPCmaWAS9D2oIIm+2LkCKB4YTi/br3jsC6gEgrMlI1b30nHgAgij\nN9wR1S5Fs5YZty1We41FF3Q9+QV3+/po3SAyNiG8og+nCsT2JQMRzvTOgwKBgQCA\nsfBV1k3dfcOKYQtHvZE1jJ3/ohDP+9skMvoQaGomgd4gbTHwyHX2TuU1D1ctkwOa\n3n68si9uorRw2yn5ttpJSWvIxj+fqykL64rOw8afASt/Nb9+rV9S56slwWRCTufT\nCtH53DpIrtMxPSlDy+j8R2OniL3YNUT8IqxGGcOaLwKBgQCrQ9yFBxUvpNOGoWYg\nz4/vNvaFkp8hExzweB8YQx9qr3O0gjhpTw18Ap0o2vyAXHn+rdiiyyXDqyXGsSa9\n/Ybz7r4xxqBUy0GubhCNTynJfRVsL8MOzTdChGnE3Jyw6M29rUQGSCS7p0KloLXv\nDHhiO6H/YhwTT/fkCrjzKT21pw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "aayushagrawal135@musicpeer-bffc0.iam.gserviceaccount.com",
+  "client_id": "103419899441786447026",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/aayushagrawal135%40musicpeer-bffc0.iam.gserviceaccount.com"
+}

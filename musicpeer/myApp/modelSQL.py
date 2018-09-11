@@ -1,10 +1,22 @@
 import sqlite3
 from datetime import datetime
 
-conn = sqlite3.connect("database.db")
-cursor = conn.cursor()
+filename = "database.db"
 
-def create_table_Users():
+# initiate database connection, cursors
+def open(filename=filename):
+    try:
+        conn = sqlite3.connect(filename)
+        cursor = conn.cursor()
+        return conn, cursor
+    except:
+        return None, None
+
+# close database connection
+def close(conn):
+    conn.close()
+
+def create_table_Users(cursor):
     query = """
     CREATE TABLE IF NOT EXISTS Users(
         username TEXT,
@@ -14,7 +26,7 @@ def create_table_Users():
     """
     cursor.execute(query)
 
-def create_table_History():
+def create_table_History(cursor):
     query = """
     CREATE TABLE IF NOT EXISTS History(
         id INTEGER,
@@ -26,19 +38,18 @@ def create_table_History():
     """
     cursor.execute(query)
 
-def insert_data_Users():
+def insert_data_Users(username, email, password_hash):
     query = """
         INSERT INTO Users(username, email, password_hash)
-        VALUES('aayush', 'gmai', 'kachra')
+        VALUES(?, ?, ?)
         """
-    conn.execute(query)
+    conn.execute(query, (username, email, password_hash))
     conn.commit()
 
-def insert_data_History():
+def insert_data_History(username, search_query):
     query = """
-        INSERT INTO History(username, search_query, at_time) VALUES ('aayush', 'gool','rfff')
+        INSERT INTO History(username, search_query, at_time) VALUES (?, ?, ?)
     """
-    conn.execute(query)
+    print()
+    conn.execute(query, (datetime('now')))
     conn.commit()
-
-insert_data_History()
